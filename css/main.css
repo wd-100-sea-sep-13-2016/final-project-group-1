@@ -3,6 +3,7 @@ body{
     margin:0;
     width:100%;
     height:100vh;
+    background-color: #01595b;
 }
 
 header{
@@ -11,14 +12,13 @@ header{
     height:90px; 
     line-height:60px;
 }
-.bg {
-  background-image:url(Seattle.jpg);
+.background {
   width:100%;
   height:100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -99999;
+}
+.bg_img {
+  width: 100%;
+  position: absolute;
 }
 .hamburger{
   background:none;
@@ -50,7 +50,7 @@ header{
   outline:none;
   z-index:10000000000000;
 }
-.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:10%; background:#003300;  position:absolute; text-align:center;}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:50%; background:#01595b;  position:absolute; text-align:center;}
 .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
 .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
 .menu li:hover{display: block;    background:#181818; padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
