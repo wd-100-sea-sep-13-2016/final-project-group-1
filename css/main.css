@@ -108,32 +108,38 @@ height: 15px;
 #facebook-bar {
     position: relative;
     width: 150px;
-    bottom: -10px;
-    right: 20px;
-    height: auto;
+    display: block;
+    top: 235px;
 }
 #twitter-bar {
     position: relative;
     width: 150px;
-    height: auto;
-    bottom: 50px;
-    right: 175px;
+    display: block;
+    top: 155px;
 }
 #github-bar {
     position: relative;
     width: 150px;
-    height: auto;
-    bottom: 110px;
-    right: 330px;
+    display: block;
+    top: 75px;
 }
 #instagram-bar {
     position: relative;
     width: 150px;
-    height: auto;
-    bottom: 170px;
-    right: 485px;
+    display: block;
+    top: -5px;
 }
 
+#greeting {
+position: absolute;
+top: 40%;
+z-index: 9999;
+font: bold 60px cursive;
+color: #ffffff;
+text-align: center;
+width: 100%;
+text-align: center;
+}
 .glyphicon-home{
   color:white; 
   font-size:1.5em; 
