@@ -101,8 +101,8 @@ height: 15px;
 }
 .social-bar {
     position: fixed;
-    bottom: 50px;
-    left: 0;
+    bottom: -280px;
+    left: -330px;
     z-index: 9999999;
 }
 #facebook-bar {

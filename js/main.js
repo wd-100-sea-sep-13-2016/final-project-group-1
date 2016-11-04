@@ -32,22 +32,10 @@ $(".chevron-right").rotate({
       socialBarShowing = !socialBarShowing;
 
       if (socialBarShowing) {
-          $('.social-bar').animate({left:'-330px', bottom:'-280px'}, {queue: false, duration: 500});
+          $('.social-bar').animate({left:'0px', bottom:'50px'}, {queue: false, duration: 500});
       } else {
-	      $('.social-bar').animate({left:'0px', bottom:'50px'}, {queue: false, duration: 500});      	
+	      $('.social-bar').animate({left:'-330px', bottom:'-280px'}, {queue: false, duration: 500});      	
       }
     }
   }
 });
-
-/*
-$(function () {
-    $(".mediabutton").toggle(function () {
-	    console.log("1");
-        $("#facebook-bar").parent().animate({left:'0px'}, {queue: false, duration: 500});
-    }, function () {
-	    console.log("2");
-        $("#facebook-bar").parent().animate({left:'-280px'}, {queue: false, duration: 500});
-    });
-});
-*/
