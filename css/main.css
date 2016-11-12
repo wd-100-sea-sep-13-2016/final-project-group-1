@@ -3,7 +3,7 @@ body{
     margin:0;
     width:100%;
     height:100vh;
-    background-color: #06f7ff;
+    background-color: #ffffff;
 }
 
 .menubar {
@@ -18,37 +18,29 @@ body{
 }
 
 #LogoBG {
-  width: 200px;
+  width: 80px;
   height: 80px;
-  right: 0px;
-  position: absolute;
-  top: 0px;
+  right: 20px;
+  position: fixed;
+  top: 5px;
   z-index: 1000000;
+  color: #ffffff;
 }
 
 #Logo {
     width: 100%;
     height: 100%;
+    color: #ffffff;
 }
 
-.background {
-  width:100%;
-  height:100%;
-  z-index: -99999;
-}
-.bg_img {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-}
-.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:30%; background:#01595b;  position:relative; top: 15px; text-align:center;}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:30%; background:#06f7ff;  position:relative; top: 15px; text-align:center;}
 .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
-.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#000000 1px solid; border-right:#000000 1px solid; height: 20px; line-height: 20px;}
-.menu li:hover{display: block;    background:#000000; padding:15px 0 15px 0; border-bottom:#000000 1px solid; border-right:#000000 1px solid;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#ffffff 1px solid; border-right:#ffffff 1px solid; height: 20px; line-height: 20px;}
+.menu li:hover{display: block;    background:#01595b; padding:15px 0 15px 0; border-bottom:#ffffff 1px solid; border-right:#ffffff 1px solid;}
 .menu ul li a { text-decoration:none;  margin: 0px; color:#fff;}
 .menu ul li a:hover {  color: #fff; text-decoration:none;}
-.menu a{text-decoration:none; color:white;}
-.menu a:hover{text-decoration:none; color:white;}
+.menu a{text-decoration:none; color:#ffffff;}
+.menu a:hover{text-decoration:none; color:#ffffff;}
 
 .hamburger{
   background:none;
@@ -111,19 +103,19 @@ height: 15px;
     position: relative;
     width: 150px;
     display: block;
-    top: 235px;
+    top: 259px;
 }
 #twitter-bar {
     position: relative;
     width: 150px;
     display: block;
-    top: 155px;
+    top: 171px;
 }
 #github-bar {
     position: relative;
     width: 150px;
     display: block;
-    top: 75px;
+    top: 83px;
 }
 #instagram-bar {
     position: relative;
@@ -146,10 +138,11 @@ height: 15px;
   position: relative;
   top: 0px;
   z-index: 2;
-  color: #01595b;
+  color: #06f7ff;
   width: 100%;
-  font: bold 30px cursive;
+  font: bold 30px courier;
   text-align: center;
+  text-shadow: 0 1px 2px #000000;
 }
 
 #greeting {
@@ -162,6 +155,33 @@ width: 100%;
 text-align: center;
 background: #ffffff;
 }
+#snowboard-box {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: -6px;
+  background-color: #000000;
+  z-index: 1;
+}
+#snowboard-left a img {
+  width: 50%;
+  float: left;
+  clear: left;
+  cursor: pointer;
+  background-color: #000000;
+  border: 2.5px solid #000000;
+  box-sizing: border-box;
+}
+#snowboard-right a img {
+  width: 50%;
+  float: right;
+  clear: right;
+  cursor: pointer;
+  background-color: #000000;
+  border: 2.5px solid #000000;
+  box-sizing: border-box;
+}
+
 .glyphicon-home{
   color:white; 
   font-size:1.5em; 
