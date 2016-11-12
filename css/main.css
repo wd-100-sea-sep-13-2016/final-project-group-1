@@ -3,7 +3,7 @@ body{
     margin:0;
     width:100%;
     height:100vh;
-    background-color: #01595b;
+    background-color: #06f7ff;
 }
 
 .menubar {
@@ -34,10 +34,12 @@ body{
 .background {
   width:100%;
   height:100%;
+  z-index: -99999;
 }
 .bg_img {
   width: 100%;
   position: absolute;
+  bottom: 0;
 }
 .menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:30%; background:#01595b;  position:relative; top: 15px; text-align:center;}
 .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
@@ -130,15 +132,35 @@ height: 15px;
     top: -5px;
 }
 
+#mountain {
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  position: relative;
+  top: 88px;
+  border: 5px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+}
+#intro-text {
+  position: relative;
+  top: 0px;
+  z-index: 2;
+  color: #01595b;
+  width: 100%;
+  font: bold 30px cursive;
+  text-align: center;
+}
+
 #greeting {
-position: absolute;
-top: 40%;
+position: relative;
+top: 90px;
 z-index: 9999;
 font: bold 60px cursive;
-color: #ffffff;
-text-align: center;
+color: #01595b;
 width: 100%;
 text-align: center;
+background: #ffffff;
 }
 .glyphicon-home{
   color:white; 
