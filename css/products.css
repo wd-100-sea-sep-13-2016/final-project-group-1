@@ -123,67 +123,76 @@ height: 15px;
     display: block;
     top: -5px;
 }
-
-#mountain {
+#snowboard {
+  position: relative;
+  top: 15%;
   width: 100%;
   height: auto;
-  z-index: 1;
-  position: relative;
-  top: 88px;
-  border: 5px solid #ffffff;
-  box-sizing: border-box;
-  box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
 }
-#intro-text {
-  position: relative;
-  top: 0px;
-  z-index: 2;
-  color: #06f7ff;
-  width: 100%;
-  font: bold 30px courier;
-  text-align: center;
-  text-shadow: 0 1px 2px #000000;
+#price1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  font: 10vw arial;
+  text-shadow: 0 0 5px #ffffff;
+  color: #000000;
+  text-decoration: none;
+  transition: ease-out .5s;
 }
-
-#greeting {
-position: relative;
-top: 90px;
-z-index: 9999;
-font: bold 60px cursive;
-color: #01595b;
-width: 100%;
-text-align: center;
-background: #ffffff;
+#price1:hover {
+  transition: ease-out .5s;
+  color: #ff8800;
 }
-#snowboard-box {
-  width: 100%;
-  height: auto;
-  position: relative;
-  top: -6px;
-  background-color: #000000;
-  z-index: 1;
+#price2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  font: 10vw arial;
+  text-shadow: 0 0 5px #ffffff;
+  color: #000000;
+  text-decoration: none;
+  transition: ease-out .5s;
 }
-#snowboard-left a img {
-  width: 50%;
-  float: left;
-  clear: left;
-  cursor: pointer;
-  background-color: #000000;
-  border: 2.5px solid #000000;
-  box-sizing: border-box;
-  border-left: transparent;
+#price2:hover {
+  transition: ease-out .5s;
+  color: #ff8800;
 }
-#snowboard-right a img {
-  width: 50%;
-  float: right;
-  clear: right;
-  cursor: pointer;
-  background-color: #000000;
-  border: 2.5px solid #000000;
-  box-sizing: border-box;
-  border-right: transparent;
+#price3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  font: 10vw arial;
+  text-shadow: 0 0 5px #ffffff;
+  color: #000000;
+  text-decoration: none;
+  transition: ease-out .5s;
 }
-
+#price3:hover {
+  transition: ease-out .5s;
+  color: #ff8800;
+}
+#price4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  font: 10vw arial;
+  text-shadow: 0 0 5px #ffffff;
+  color: #000000;
+  text-decoration: none;
+  transition: ease-out .5s;
+}
+#price4:hover {
+  transition: ease-out .5s;
+  color: #ff8800;
+}
 .glyphicon-home{
   color:white; 
   font-size:1.5em; 
